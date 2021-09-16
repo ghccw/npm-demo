@@ -1,0 +1,33 @@
+{
+  "name": "npm-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/umd/index.js",
+  "module": "./dist/ems/index.js",
+  "scripts": {
+    "dev": "rollup --config rollup.config.js -w",
+    "build": "rollup --config rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@typescript-eslint/parser": "^4.31.1",
+    "commonjs": "^0.0.1",
+    "rollup": "^2.56.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
